@@ -139,6 +139,8 @@ pre{
     margin:4px 4px;
     padding: 4px;
     background-color: #0000000b;
+    overflow-x:auto;
+    overflow-y: hidden;
     white-space: nowrap;
     display: flex;
 
@@ -162,7 +164,7 @@ pre{
   }
 
 #progress-bar {
-    height: 100px; /* Adjust the height of your custom image */
+    height: 300px; /* Adjust the height of your custom image */
     width: auto;
     display: block;
     filter: grayscale(100%); /* Make the image initially colorless */
