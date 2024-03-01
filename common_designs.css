@@ -164,7 +164,7 @@ pre{
   }
 
 #progress-bar {
-    height: 300px; /* Adjust the height of your custom image */
+    height: 100px; /* Adjust the height of your custom image */
     width: auto;
     display: block;
     filter: grayscale(100%); /* Make the image initially colorless */
