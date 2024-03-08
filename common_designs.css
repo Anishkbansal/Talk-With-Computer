@@ -5,6 +5,18 @@ body{
     font-size: large;
 }
 
+.index{
+    font-family: 'Cagliostro', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-size: large;
+    padding: 100px 25px 0px 25px;
+    background-color:rgba(158, 228, 230, 0.092);
+}
+
+.lectures{
+    margin: 25px 0px 25px 0px;
+}
+
 .english{
     font-family: 'Cagliostro', sans-serif;
     font-family: 'Mukta', sans-serif;
@@ -23,6 +35,17 @@ body{
     background-color:rgba(158, 228, 230, 0.092);
     margin: -10px;
     
+}
+
+.iframeContainer{
+    display: none;
+    height: 400px;
+    width: 100%;
+}
+
+iframe{
+    height: 100%;
+    width: 100%;
 }
 
 .Name{
@@ -101,6 +124,16 @@ pre{
     padding:5px 0px 5px 15px;
 }
 
+.toggleBtn{
+    background-color: rgb(77, 208, 145);
+    height: 50px;
+    width: auto;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
 .windows{
     padding:5px;
     background-color: rgba(0, 255, 255, 0.051);
@@ -140,7 +173,7 @@ pre{
     padding: 4px;
     background-color: #0000000b;
     overflow-x:auto;
-    overflow-y: hidden;
+    overflow-y: visible;
     white-space: nowrap;
     display: flex;
 
@@ -169,3 +202,4 @@ pre{
     display: block;
     filter: grayscale(100%); /* Make the image initially colorless */
 }
+
